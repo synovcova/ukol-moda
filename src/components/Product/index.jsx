@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 
-const Product = (image, name, description, price) => {
+const Product = ({image, name, description, price}) => {
     return (
             <div className="product">
                 <img src={ `/assets/${image}` } alt={name}/>

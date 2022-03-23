@@ -3,7 +3,7 @@ import './style.css';
 import Product from '../Product';
 
 
-const Dresses = (title) => {
+const Dresses = ({title}) => {
     return (
             <section className="dresses">
                 <h2 className='dresses h2'>{title}</h2>
